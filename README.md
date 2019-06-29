@@ -4,6 +4,7 @@
 ###### Get Number of games user would like to play.
 ###### Make sure User enter's an Integer value in for Number of game.
 ###### Give User options to enter Rock, Paper, Scissors
+###### Handle if user doesn't enter in Rock, Paper, or Scissors
 
 # Game Play
 
