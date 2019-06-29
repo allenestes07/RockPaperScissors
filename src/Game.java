@@ -8,9 +8,9 @@ public class Game {
     private int computerScore;
     private int playerChoice;
     private int computerChoice;
-    private int Rock = 0;
-    private int Paper = 1;
-    private int Scissors = 2;
+    private static final int Rock = 0;
+    private static final int Paper = 1;
+    private static final int Scissors = 2;
     private int totalRounds;
 
     public Game() {
