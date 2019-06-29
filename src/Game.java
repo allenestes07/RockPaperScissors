@@ -57,7 +57,6 @@ public class Game {
         } else {
             System.out.println("The Computer picked: Scissors");
         }
-        System.out.println(computerChoice);
     }
 
     public void gamePlay() {

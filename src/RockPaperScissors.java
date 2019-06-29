@@ -10,6 +10,10 @@ public class RockPaperScissors {
         p1.welcomeMessage();
 
         Game g1 = new Game();
+        while(!input.hasNextInt()) {
+            System.out.println("Invalid Input! Please enter Integer");
+            input.next();
+        }
         int numberOfGames = input.nextInt();
         input.nextLine();
         g1.setNumberOfGames(numberOfGames);
