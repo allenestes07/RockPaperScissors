@@ -28,13 +28,13 @@ public class Game {
     public void setPlayerChoice(String playerSelected) {
         switch(playerSelected.toUpperCase()) {
             case "ROCK":
-                this.playerChoice = 0;
+                this.playerChoice = Rock;
                 break;
             case "PAPER":
-                this.playerChoice = 1;
+                this.playerChoice = Paper;
                 break;
             case "SCISSORS":
-                this.playerChoice = 2;
+                this.playerChoice = Scissors;
                 break;
             default:
                 invalidPlayerSelection();
